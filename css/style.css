@@ -1,0 +1,73 @@
+body {
+	background: url('../pics/wa.jpg') white repeat;
+	color: black;
+	font: bold 50px/42px Georgia;
+}
+
+.pics {
+	text-align: center;
+}
+
+ul {
+	position: fixed;
+	left: 1%;
+	top: 65%;
+	list-style: none;
+}
+
+li {
+	color: #4d4b4b;
+	font-size: 45px;
+}
+
+.res {
+	position: fixed;
+	top: 55%;
+	left: 43%;
+	color: #4d4b4b;
+	text-align: center;
+}
+
+.btn {
+	text-align: right;
+	padding-right: 4%;
+}
+
+#gomb {
+	position: fixed;
+	right: 5%;
+	bottom: 10%;
+	background: #4d4b4b;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.current {
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 110%;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#ko:hover,
+#papir:hover,
+#ollo:hover {
+	width: 210px;
+	transition: 0.3s;
+}
+
+table,
+tr,
+th {
+	border: 0px;
+	border-collapse: collapse;
+	border-color: #4d4d4d;
+	font-size: 110%;
+}
