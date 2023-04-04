@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>kő papír olló játék</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="pics/favi.png">
+</head>
+
+<body>
+    <div class="pics">
+        <img src="pics/rock.png" id="ko" alt="kő" width=200 onclick=kor(ko)>
+        <img src="pics/paper.png" id="papir" alt="papír" width=200 onclick=kor(papir)>
+        <img src="pics/scissors.png" id="ollo" alt="olló" width=200 onclick=kor(ollo)>
+    </div>
+    <h2 class="current">VS</h2>
+    <h2 class="current" id="ellen"></h2>
+
+    <ul>
+        <li id="scoreForYou">
+            Játékos:
+        </li>
+        <li id=scoreForCmp>
+            Gép:
+        </li> 
+        <li id="scoreDraw">
+            Döntetlen:
+        </li>
+    </ul>
+
+    <p class="res" id="result"></p>
+
+
+    <div class="btn">
+        <p class="btn">
+            <button id="gomb" onclick="window.location.reload();" style="font-size:60%">Újra</button>
+        </p>
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+
+</html>
